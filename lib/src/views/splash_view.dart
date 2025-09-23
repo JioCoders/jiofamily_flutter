@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:jiofamily/src/route_name.dart';
 
 class SplashScreen extends StatelessWidget {
   const SplashScreen({super.key});
@@ -7,7 +8,7 @@ class SplashScreen extends StatelessWidget {
   Widget build(BuildContext context) {
     Future.delayed(const Duration(seconds: 2), () {
       if(context.mounted){
-        Navigator.pushReplacementNamed(context, '/login');
+        Navigator.pushReplacementNamed(context, Routes.login);
       }
     });
 

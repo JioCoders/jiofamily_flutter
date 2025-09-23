@@ -5,13 +5,15 @@ class SettingsScreen extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return ListView(
-      children: const [
-        ListTile(title: Text("Profile")),
-        ListTile(title: Text("Currency")),
-        ListTile(title: Text("App Lock")),
-        ListTile(title: Text("Logout")),
-      ],
+    return Scaffold(
+      body: ListView(
+        children: const [
+          ListTile(title: Text("Profile")),
+          ListTile(title: Text("Currency")),
+          ListTile(title: Text("App Lock")),
+          ListTile(title: Text("Logout")),
+        ],
+      ),
     );
   }
 }

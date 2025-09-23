@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:jiofamily/src/route_name.dart';
 
 class LoginScreen extends StatelessWidget {
   const LoginScreen({super.key});
@@ -9,7 +10,7 @@ class LoginScreen extends StatelessWidget {
       body: Center(
         child: ElevatedButton(
           child: const Text("Continue"),
-          onPressed: () => Navigator.pushReplacementNamed(context, '/dashboard'),
+          onPressed: () => Navigator.pushReplacementNamed(context, Routes.dashboard),
         ),
       ),
     );

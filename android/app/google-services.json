@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "426596039259",
+    "project_id": "jiofamily",
+    "storage_bucket": "jiofamily.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:426596039259:android:a38aaa043e9f7ba5811d7e",
+        "android_client_info": {
+          "package_name": "com.jiocoders.jiofamily"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBAGA6x47M3vyYlJ12UgXewJeGBxhGGM4g"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

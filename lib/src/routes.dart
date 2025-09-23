@@ -1,12 +1,13 @@
 import 'package:flutter/material.dart';
+import 'package:jiofamily/src/route_name.dart';
 import 'package:jiofamily/src/views/views.dart';
 
 final Map<String, WidgetBuilder> appRoutes = {
-  '/': (_) => const SplashScreen(),
-  '/login': (_) => const LoginScreen(),
-  '/dashboard': (_) => const DashboardScreen(),
-  '/add': (_) => const AddTransactionScreen(),
-  '/reports': (_) => const ReportsScreen(),
-  '/budget': (_) => const BudgetScreen(),
-  '/settings': (_) => const SettingsScreen(),
+  Routes.splash: (_) => const SplashScreen(),
+  Routes.login: (_) => const LoginScreen(),
+  Routes.dashboard: (_) => const DashboardScreen(),
+  Routes.addTransaction: (_) => const AddTransactionScreen(),
+  Routes.reports: (_) => const ReportsScreen(),
+  Routes.budget: (_) => const BudgetScreen(),
+  Routes.settings: (_) => const SettingsScreen(),
 };

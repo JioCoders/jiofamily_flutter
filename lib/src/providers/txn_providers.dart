@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import '../models/transaction.dart';
-import '../services/db_service.dart';
+import 'package:jiofamily/src/models/transaction.dart';
+import 'package:jiofamily/src/services/db_service.dart';
 
 class TransactionProvider with ChangeNotifier {
   List<TransactionModel> _transactions = [];
